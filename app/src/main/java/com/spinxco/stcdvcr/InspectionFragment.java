@@ -20,7 +20,7 @@ import android.view.ViewGroup;
 public class InspectionFragment extends Fragment {
     private OnFragmentInteractionListener mListener;
 
-    /**testestesttesttesettest654654654654
+    /**testestesttesttesettest654654654654asdfasdf
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
      *
