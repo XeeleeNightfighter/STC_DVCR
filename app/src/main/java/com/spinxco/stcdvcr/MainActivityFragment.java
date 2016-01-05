@@ -40,10 +40,13 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
 
     public void inspectionReport() {
 
+
         InspectionFragment frag = new InspectionFragment();
         FragmentTransaction transaction = getFragmentManager().beginTransaction();
 
-        transaction.replace(R.id.main_fragment, frag);
+        //transaction.hide(this);
+        //transaction.show(frag);
+        transaction.replace(R.id.fragment, frag);
         transaction.addToBackStack(null);
 
         transaction.commit();
